@@ -1,3 +1,5 @@
+DOCKER_PLATFORM:
+- linux/amd64
 c_stdlib:
 - sysroot
 c_stdlib_version:
@@ -17,7 +19,7 @@ glib:
 libsecret:
 - '0.21'
 qt6_main:
-- '6'
+- '6.11'
 target_platform:
 - linux-64
 zlib:
